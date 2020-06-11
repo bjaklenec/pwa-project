@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no' ?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+
+<Albumi>
+    <Album>
+        <ImeAlbuma>The Joshua Tree</ImeAlbuma>
+        <Izvodac>U2</Izvodac>
+        <Godina>1987</Godina>
+        <Zanr>Rock</Zanr>
+        <Prijedlog>Predlažem</Prijedlog>
+        <Ocjena>5</Ocjena>
+    </Album>
+    <Album>
+        <ImeAlbuma>Stadium Arcadium</ImeAlbuma>
+        <Izvodac>Red Hot Chili Peppers</Izvodac>
+        <Godina>2006</Godina>
+        <Zanr>Rock</Zanr>
+        <Prijedlog>Predlažem</Prijedlog>
+        <Ocjena>5</Ocjena>
+    </Album>
+    <Album>
+        <ImeAlbuma>Sticky Fingers</ImeAlbuma>
+        <Izvodac>The Rolling Stones</Izvodac>
+        <Godina>1971</Godina>
+        <Zanr>Rock</Zanr>
+        <Prijedlog>Predlažem</Prijedlog>
+        <Ocjena>5</Ocjena>
+    </Album>
+    <Album>
+        <ImeAlbuma>Stoney</ImeAlbuma>
+        <Izvodac>Post Malone</Izvodac>
+        <Godina>2016</Godina>
+        <Zanr>Trap</Zanr>
+        <Prijedlog>Predlažem</Prijedlog>
+        <Ocjena>5</Ocjena>
+    </Album>
+    <Album>
+        <ImeAlbuma>Sticky Fingers</ImeAlbuma>
+        <Izvodac>The Rolling Stones</Izvodac>
+        <Godina>1987</Godina>
+        <Zanr>Rock</Zanr>
+        <Prijedlog>Predlažem</Prijedlog>
+        <Ocjena>5</Ocjena>
+    </Album>
+    <Album>
+        <ImeAlbuma>The Joshua Tree</ImeAlbuma>
+        <Izvodac>U2</Izvodac>
+        <Godina>1984</Godina>
+        <Zanr>Rock</Zanr>
+        <Prijedlog>Predlažem</Prijedlog>
+        <Ocjena>5</Ocjena>
+    </Album>
+<Album>
+<ImeAlbuma>Stadium Arcadium</ImeAlbuma>
+<Izvodac>Red Hot Chili Peppers</Izvodac>
+<Godina>1987</Godina>
+<Zanr>Rock</Zanr>
+<Prijedlog>Predlažem</Prijedlog>
+<Ocjena>5</Ocjena>
+</Album>
+</Albumi>

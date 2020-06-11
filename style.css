@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+.tekst{
+    text-decoration: none;
+}
+nav{
+    margin: 0 auto;
+    text-align: center;
+    padding: 25px 0;
+    text-transform: uppercase;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav li{
+    display: inline;
+    font-weight: bold;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 0px 20px;
+}
+h2{
+    font-size: 30px;
+}
+h2, h3{
+    text-align: center;
+    font-weight: 700;
+}
+h3{
+    padding: 10px 10px 20px;
+}
+.bijelo{
+    margin-top: -20px;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+a.naslov_a{
+    text-decoration: none;
+    color: black;
+}
+.tekst p{
+    color: #d1caca;
+    font-size: 90%;
+    font-weight: 400;
+}
+.naslovi{
+    padding: 50px 0;
+}
+.border{
+    border: 1px solid #b9b9b9;
+    height: 300px;
+}
+.logo{
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px 0px;
+}
+.img-container{
+    float: left;
+    width: 33%;
+    padding: 10px;
+}
+footer{
+    text-align: center;
+    padding: 15px 0px;
+    color: #d1caca;
+    background-color: #f1ecec;
+}
+footer p{
+    padding-top: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.footer{
+    padding-top: 150px;
+}
+p.ispod_naslova{
+    text-align: center;
+    color: #d1caca;
+    font-weight: lighter;
+}
+ul .icon{
+    display: none;
+}
+.forma{
+    text-align: center;
+    padding-top: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+label{
+    display: block;
+}
+.button, .button2{
+    border: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    display: inline-block;
+    text-transform: uppercase;
+    background-color: #f1ecec;
+    color:#999595;
+    transition-duration: 0.4s;
+}
+.button:hover, .button2:hover{
+    background-color: white;
+    border-left: 1px solid #999595;
+    border-right: 1px solid #999595;
+}
+textarea{
+    width: 50%;
+    border: 1px solid #999595;
+    border-radius: 4px;
+    padding: 12px;
+}
+#naslov{
+    width: 50%;
+    padding: 12px;
+}
+#kategorija{
+    width: 50%;
+    padding: 12px;
+}
+#unos{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+.info{
+    padding: 10px 0px;
+    text-transform: uppercase;
+}
+.kategorija{
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+.naslov_clanak{
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.sazetak{
+    font-weight: 600;
+    padding: 15px 0;
+}
+.tekst_clanak{
+    text-align: left;
+    padding-bottom: 100px;
+    font-size: 25px;
+}
+input[type=text], input[type=password], input[type=number], select{
+    width: 25%;
+    padding: 12px;
+    border: 1px solid #999595;
+    border-radius: 4px;
+    resize: vertical;
+}
+.slika{
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+select{
+    background-color: #f1ecec ;
+}
+
+.slider{
+    width: 25%;
+    outline: none;
+}
+.sredina{
+    padding-top: 150px;
+}
+Albumi { 
+    font-family: 'Barlow Condensed', sans-serif;
+    display:block;
+    width: 50%;
+    margin: 0 auto;
+} 
+Album { 
+	display:block; 
+	border: 3px solid #b9b9b9; 
+	margin: 10px; 
+    padding: 15px;
+	background-color:#f3f1f1; 
+} 
+ImeAlbuma, Izvodac, Godina, Zanr, Prijedlog, Ocjena { 
+	display:block; 
+    text-align:center; 
+    padding: 5px;
+} 
+ImeAlbuma { 
+	color:black; 
+	font-weight:bold; 
+	font-size: 30px; 
+} 
+Izvodac { 
+    color:Black;
+    font-size: 20px;
+} 
+Godina { 
+	color:Black;
+} 
+Zanr { 
+	color:Black;
+} 
+Prijedlog { 
+    font-weight: bold;
+}
+Ocjena{
+    font-weight: bold;
+    color: red;
+}
+
+@media (max-width: 1100px){
+    .wrapper{
+        max-width: 700px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    h3{
+        font-size: 100%;
+    }
+    .img-container{
+        float: none;
+        margin: 0 auto;
+        width: 70%;
+    }
+    .border{
+        border: 1px solid #b9b9b9;
+        height: 40%;
+    }
+    footer p{
+        font-size: 80%;
+    }
+    .button2{
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .bijelo{
+        width: 80%;
+    }
+}
+@media (max-width: 850px){
+    .wrapper{
+        width: 90%;
+    }
+    .slika_clanak img{
+        width: 200px;
+    }
+    .sazetak p{
+        font-size: 20px;
+        text-align: center;
+    }
+    .tekst_clanak p{
+        font-size: 15px;
+        text-align: left;
+    }
+    ul{
+        width: 100%;   
+    }
+    nav li{
+        width: 50%;
+        padding-top: 0px;
+        margin: 0 auto;
+        display: block;
+    }
+    nav a{
+        padding: 10px 0 10px 10px;
+        display: none;
+    }
+    .topnav a.icon {
+        float: none;
+        display: block;
+    }
+    .topnav.responsive {
+        position: relative;
+    }
+    .topnav.responsive .icon {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+    h3{
+        font-size: 80%;
+    }
+    .img-container{
+        float: none;
+        margin: 0 auto;
+        width: 70%;
+    }
+    .border{
+        border: 1px solid #b9b9b9;
+        height: 30%;
+    }
+    footer p{
+        font-size: 80%;
+    }
+    .footer{
+        padding-top: 50px;
+    }
+    .sredina{
+        padding-top: 50px;
+    }
+
+@media (max-width: 500px){
+    input[type=file]{
+        width: 100%;
+    }
+    .tekst_clanak{
+        text-align: center;
+    }
+    a.naslov_a{
+        font-size: 15px;
+        text-align: center;
+    }
+    .ispod_naslova{
+        font-size: 15px;
+    }
+}
+}
