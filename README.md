@@ -10,6 +10,7 @@ Unos_vijesti.php sluzi za unos novih vijesti te ona salje formu na unos.php koja
 Xml-projekt.php je dio od XML projekta koji sluzi za unos recenzije albuma te sprema unos u Albumi.xml, a ako taj file ne postoji onda ga stvara.
 Ako u navigaciji pritisnemo PREGLED XML, ona nam u novoj kartici ispisuje xml dokument sa svim unosima.
 Logout.php je skripta kojom se prekida sesija i koja omogućava odjavu starog i prijavu novog korisnika.
+Lobs.sql je exportana baza podataka.
 
 Uz sami projekt prilazem i video koji objasnjava kako web stranica funkcionira.
 
